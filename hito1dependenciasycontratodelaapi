@@ -1,0 +1,56 @@
+TABLAS PRODUCTOS: SOLO SKU ACÁ =)!
+
+TABLA PEDIDOS: COMUNA, TELEFONO =)!
+
+
+user_id NULLABLE =)!
+Dependencias que utilizamos en el Proyecto :D!!
+
+Dependencias en el Front End:
+
+* React Router DOM
+* React MDB Bootstrap
+* React Bootstrap
+
+Dependencias en el Backend:
+
+*Express JS
+*Bcrypt
+*PG
+*JSONWebToken
+*CORS
+*Format-PG
+*Supertest
+*JEST
+
+Diseño del Contrato de Datos de la API REST :DD!!
+
+POST /registrar
+
+request: 
+	payload: {
+		Nombre: String,
+		Email: String,
+		Password: String,
+		Teléfono: String,
+		Dirección de Facturación: String
+	}
+	
+POST /login
+
+request: 
+	payload: {
+		email: String,
+		password: String
+	}
+
+response:
+	{
+	token: String,
+	user: {
+		id: Number,
+		email: String,
+	}
+ }
+
+
